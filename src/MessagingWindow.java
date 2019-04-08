@@ -10,11 +10,9 @@ import java.awt.event.ActionListener;
     private JScrollPane sp;
     private JButton submit;
     String address;
-    String port;
 
-     MessagingWindow(String address, String port){
+     MessagingWindow(String address){
         this.address = address;
-        this.port = port;
 
         setLayout(new FlowLayout());
 
@@ -38,8 +36,7 @@ import java.awt.event.ActionListener;
             String str = messageField.getText();
             if(event.getSource() ==  submit) {
                 convoField.append("me: " + str + "\n");
-                int pt = Integer.parseInt(port);
-                Driver.sendMessage(address.replace("/",""),pt, str);
+                Driver.sendMessage(address.replace("/",""), str);
             }
             messageField.setText("");
         }

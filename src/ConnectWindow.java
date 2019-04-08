@@ -36,7 +36,7 @@ class ConnectWindow extends JFrame {
     private class thehandler implements ActionListener{
         public void actionPerformed(ActionEvent event){
             if(event.getSource() ==  submit) {
-                Driver.createNewMSGWindow(ipAddress.getText(), port.getText());
+                Driver.createNewMSGWindow(ipAddress.getText());
             }else if(event.getSource() == close) {
                 Driver.closeAllWindows();
             }
