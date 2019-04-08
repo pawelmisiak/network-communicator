@@ -14,7 +14,7 @@ public class Driver {
     private static int index;
     private static ConnectWindow newWindow;
     private static String myName = "Pawel";
-    private static int fixedPort;
+    private static int fixedPort = 64000;
 
 
     public static void main(String[] args) {

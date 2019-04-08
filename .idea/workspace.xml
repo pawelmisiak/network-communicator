@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55cd3400-6001-42a5-b433-5f7054859f75" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/ConnectWindow$thehandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/ConnectWindow$thehandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/ConnectWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/ConnectWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/MessagingWindow$thehandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/MessagingWindow$thehandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/MessagingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/MessagingWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConnectWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConnectWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessagingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagingWindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,35 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConnectWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ConnectWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessagingWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MessagingWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Driver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-191">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +52,8 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Socket.java" />
         <option value="$PROJECT_DIR$/src/MessagingWindow.java" />
-        <option value="$PROJECT_DIR$/src/Driver.java" />
         <option value="$PROJECT_DIR$/src/ConnectWindow.java" />
+        <option value="$PROJECT_DIR$/src/Driver.java" />
       </list>
     </option>
   </component>
@@ -204,12 +172,12 @@
       <workItem from="1554310756038" duration="6172000" />
       <workItem from="1554344192797" duration="291000" />
       <workItem from="1554587636425" duration="564000" />
-      <workItem from="1554743032805" duration="2066000" />
+      <workItem from="1554743032805" duration="2191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24683000" />
+    <option name="totallyTimeSpent" value="24808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
@@ -224,12 +192,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32776934" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32776934" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.125" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -388,7 +356,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MessagingWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="419">
           <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -408,8 +376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-191">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
