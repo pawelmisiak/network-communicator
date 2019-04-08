@@ -9,7 +9,7 @@ public class Driver {
 
 
     private static Socket mySocket;
-    private static InetAddress convertedAdderss;
+    private static InetAddress convertedAdderss, twoFiveFiveAddress;
     private static ArrayList<MessagingWindow> currentConnectionArray;
     private static int index;
     private static ConnectWindow newWindow;
@@ -44,7 +44,7 @@ public class Driver {
 
                 if (checkIfConnected(senderAddress.toString())){
                     currentConnectionArray.get(index).insertMsg(inMessage.trim());
-                }else{
+                }else if (checkIfForMe(inMessage.trim())){
                     createNewMSGWindow(senderAddress.toString());
                     currentConnectionArray.get(currentConnectionArray.size()-1).insertMsg(inMessage.trim());
                 }
@@ -56,6 +56,15 @@ public class Driver {
         System.out.println("Loop Thread has exited");
         System.out.println("finished execution");
     }
+
+    private static boolean checkIfForMe(String msg){
+        if (msg == "Pawel" || msg == "pawel"){
+            return true;
+        }
+        System.out.println("Got the message!!");
+        return false;
+    }
+
     private static boolean checkIfConnected(String addr){
         String txt = addr.replace("/", "");
 
@@ -102,6 +111,15 @@ public class Driver {
     }
 
     static void connectRequest(String name){
-
+        String strToConnect1stPart = "????? ";
+        String strToConnect2ndPart = " ##### ";
+        String msg = strToConnect1stPart + name + strToConnect2ndPart + myName;
+        try {
+            twoFiveFiveAddress = InetAddress.getByName("255.255.255.255");
+        } catch (UnknownHostException uhe) {
+            uhe.printStackTrace();
+            System.exit(-1);
+        }
+        mySocket.send(msg, twoFiveFiveAddress, fixedPort);
     }
 }

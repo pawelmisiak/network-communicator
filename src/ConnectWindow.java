@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 class ConnectWindow extends JFrame {
 
-    private JTextField pName;
+    private JTextField name;
     private JButton connect, close;
 
     ConnectWindow(){
@@ -14,13 +14,13 @@ class ConnectWindow extends JFrame {
         JLabel iplabel,portLabel;
 
         iplabel = new JLabel("Name");
-        pName = new JTextField(20);
-        pName.setText("Sameh");
+        name = new JTextField(20);
+        name.setText("Sameh");
         connect = new JButton("connect");
         close = new JButton("X");
 
         add(iplabel);
-        add(pName);
+        add(name);
         add(connect);
         add(close);
         thehandler handler = new thehandler();
@@ -31,7 +31,7 @@ class ConnectWindow extends JFrame {
     private class thehandler implements ActionListener{
         public void actionPerformed(ActionEvent event){
             if(event.getSource() ==  connect) {
-                Driver.createNewMSGWindow(pName.getText());
+                Driver.connectRequest(name.getText());
             }else if(event.getSource() == close) {
                 Driver.closeAllWindows();
             }
