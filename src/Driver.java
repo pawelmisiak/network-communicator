@@ -13,10 +13,11 @@ public class Driver {
     private static ArrayList<MessagingWindow> currentConnectionArray;
     private static int index;
     private static ConnectWindow newWindow;
+    private static String myName = "Pawel";
 
 
     public static void main(String[] args) {
-        mySocket = new Socket(64000, Socket.SocketType.NoBroadcast);
+        mySocket = new Socket(64000, Socket.SocketType.Broadcast);
 
         currentConnectionArray = new ArrayList<>();
 
