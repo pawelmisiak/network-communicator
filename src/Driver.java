@@ -83,12 +83,12 @@ public class Driver {
         mySocket.send(msg, convertedAdderss, fixedPort);
     }
 
-    static void createNewMSGWindow(String ad){
-        MessagingWindow msWindow = new MessagingWindow(ad);
+    static void createNewMSGWindow(String name){
+        MessagingWindow msWindow = new MessagingWindow(name);
         msWindow.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         msWindow.setSize(400,300);
         msWindow.setVisible(true);
-        msWindow.setTitle(ad);
+        msWindow.setTitle(name);
         currentConnectionArray.add(msWindow);
     }
 
@@ -99,5 +99,9 @@ public class Driver {
         mySocket.close();
         newWindow.dispatchEvent(new WindowEvent(newWindow, WindowEvent.WINDOW_CLOSING));
         System.exit(0);
+    }
+
+    static void connectRequest(String name){
+
     }
 }
