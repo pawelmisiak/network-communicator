@@ -55,7 +55,6 @@ public class Driver {
         }
         System.out.println("Loop Thread has exited");
         System.out.println("finished execution");
-//        mySocket.close(); // TODO: ADD THIS LATER TO CLOSING WINDOW OPTION
     }
     private static boolean checkIfConnected(String addr, int por){
         String txt = addr.replace("/", "") + por;
