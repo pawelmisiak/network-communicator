@@ -5,38 +5,33 @@ import java.awt.event.ActionListener;
 
 class ConnectWindow extends JFrame {
 
-    private JTextField ipAddress, port;
-    private JButton submit, close;
+    private JTextField name;
+    private JButton connect, close;
 
     ConnectWindow(){
         super("Connect");
         setLayout(new FlowLayout());
         JLabel iplabel,portLabel;
 
-        iplabel = new JLabel("IP address");
-        ipAddress = new JTextField(20);
-        ipAddress.setText("192.168.1.");
-        portLabel = new JLabel("Port");
-        port = new JTextField(8);
-        port.setText("64000");
-        submit = new JButton("Submit");
+        iplabel = new JLabel("Name");
+        name = new JTextField(20);
+        name.setText("Sameh");
+        connect = new JButton("connect");
         close = new JButton("X");
 
         add(iplabel);
-        add(ipAddress);
-        add(portLabel);
-        add(port);
-        add(submit);
+        add(name);
+        add(connect);
         add(close);
         thehandler handler = new thehandler();
-        submit.addActionListener(handler);
+        connect.addActionListener(handler);
         close.addActionListener(handler);
     }
 
     private class thehandler implements ActionListener{
         public void actionPerformed(ActionEvent event){
-            if(event.getSource() ==  submit) {
-                Driver.createNewMSGWindow(ipAddress.getText(), port.getText());
+            if(event.getSource() ==  connect) {
+                Driver.connectRequest(name.getText());
             }else if(event.getSource() == close) {
                 Driver.closeAllWindows();
             }

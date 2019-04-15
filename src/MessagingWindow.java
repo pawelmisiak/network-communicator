@@ -3,18 +3,18 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
- class MessagingWindow extends JFrame {
+
+class MessagingWindow extends JFrame {
 
     private JTextArea convoField;
     private JTextField messageField;
     private JScrollPane sp;
     private JButton submit;
-    String address;
-    String port;
+    String address, name;
 
-     MessagingWindow(String address, String port){
+     MessagingWindow(String name, String address){
         this.address = address;
-        this.port = port;
+        this.name = name;
 
         setLayout(new FlowLayout());
 
@@ -23,6 +23,7 @@ import java.awt.event.ActionListener;
         sp = new JScrollPane(convoField);
 
         messageField = new JTextField(20);
+
         submit = new JButton("Submit");
 
         add(sp);
@@ -30,22 +31,27 @@ import java.awt.event.ActionListener;
         add(messageField);
         add(submit);
         thehandler handler = new thehandler();
+//        messageField.addActionListener(handler);
         submit.addActionListener(handler);
     }
+
 
     private class thehandler implements ActionListener {
         public void actionPerformed(ActionEvent event){
             String str = messageField.getText();
             if(event.getSource() ==  submit) {
-                convoField.append("me: " + str + "\n");
-                int pt = Integer.parseInt(port);
-                Driver.sendMessage(address.replace("/",""),pt, str);
+                convoField.append("Me: " + str + "\n");
+//                String[] strings = address.split(" ");
+//                System.out.println(" I am sending this " + strings[1]);
+//                Driver.sendMessage(strings[1], str);
+
+                Driver.sendMessage(address, str);
             }
             messageField.setText("");
         }
     }
     public void insertMsg(String s){
-        convoField.append("them: " + s + "\n");
+        convoField.append(name + ": " + s + "\n");
     }
 }
 
