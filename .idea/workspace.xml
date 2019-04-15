@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="55cd3400-6001-42a5-b433-5f7054859f75" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/ConnectWindow$thehandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/ConnectWindow$thehandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/ConnectWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/ConnectWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConnectWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConnectWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/MessagingWindow$thehandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/MessagingWindow$thehandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworksUsingSwing/MessagingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworksUsingSwing/MessagingWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessagingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagingWindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +22,8 @@
       <file leaf-file-name="ConnectWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConnectWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="360">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessagingWindow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MessagingWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MessagingWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="312">
+              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,13 +43,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="660">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#closeAllWindows#0;class#Driver#0" />
               </folding>
             </state>
           </provider>
@@ -71,6 +72,9 @@
       <find>pt</find>
       <find>port</find>
       <find>returned</find>
+      <find>return</find>
+      <find>got a response</find>
+      <find>pawel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,9 +85,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Socket.java" />
-        <option value="$PROJECT_DIR$/src/MessagingWindow.java" />
         <option value="$PROJECT_DIR$/src/ConnectWindow.java" />
         <option value="$PROJECT_DIR$/src/Driver.java" />
+        <option value="$PROJECT_DIR$/src/MessagingWindow.java" />
       </list>
     </option>
   </component>
@@ -107,6 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,12 +129,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/pawelmisiak/Desktop/School/Networks/programs/NetworksUsingSwing/src/ConnectWindow.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -203,15 +208,19 @@
       <workItem from="1554344192797" duration="291000" />
       <workItem from="1554587636425" duration="564000" />
       <workItem from="1554743032805" duration="2191000" />
+      <workItem from="1554767317286" duration="333000" />
+      <workItem from="1554773249602" duration="662000" />
+      <workItem from="1554914334314" duration="12498000" />
+      <workItem from="1554936310789" duration="2810000" />
+      <workItem from="1555353454978" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27451000" />
+    <option name="totallyTimeSpent" value="44691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="733" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="733" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -222,7 +231,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32776934" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32776934" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -235,34 +244,12 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32776934" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.125" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32776934" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32776934" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +292,7 @@
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -335,6 +323,7 @@
           <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -365,6 +354,7 @@
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -395,6 +385,7 @@
           <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -432,6 +423,7 @@
           <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -469,6 +461,7 @@
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -499,6 +492,7 @@
           <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -529,6 +523,7 @@
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -559,6 +554,7 @@
           <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -596,6 +592,7 @@
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -633,6 +630,7 @@
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -663,6 +661,7 @@
           <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -693,6 +692,7 @@
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -723,6 +723,7 @@
           <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
           </folding>
         </state>
       </provider>
@@ -734,10 +735,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#closeAllWindows#0;class#Driver#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConnectWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="54" />
+        <state relative-caret-position="360">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -746,18 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MessagingWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="312">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
