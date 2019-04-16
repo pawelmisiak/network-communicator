@@ -27,8 +27,6 @@ public class Driver {
         newWindow.setSize(350,100);
         newWindow.setVisible(true);
 
-//        System.out.println("My Address = " + mySocket.getAddress().getHostAddress());
-//        System.out.println("My Port = " + mySocket.getPortNumber());
 
         boolean gotMessage = false;
         while (gotMessage == false) {
@@ -39,9 +37,6 @@ public class Driver {
                 byte[] inBuffer = inPacket.getData();
                 String inMessage = new String(inBuffer);
                 InetAddress senderAddress = inPacket.getAddress();
-//                int senderPort = inPacket.getPort();
-
-
 
                 if (checkIfConnected(senderAddress.toString())){
                     System.out.println("if statement We are already Connected");
@@ -57,8 +52,6 @@ public class Driver {
                     ResponseFromMyRequest(inMessage, senderAddress);
                 }
 
-//                System.out.println("Received Message = " + inMessage);
-//                System.out.println("Sender Address = " + senderAddress.getHostAddress());
             }
         }
         System.out.println("Loop Thread has exited");
@@ -110,7 +103,9 @@ public class Driver {
         currentConnectionArray.add(msWindow);
     }
 
-    //////////////// Foreign connection request
+    ////////////////                            ////////////////
+    //////////////// Foreign connection request ////////////////
+    ////////////////                            ////////////////
     private static boolean checkIfRequestForMe(String msg, InetAddress senderAddress){
         String[] strings = msg.split(" ");
 
